@@ -364,7 +364,7 @@ class CreateIntegrationDatabase extends Command
             'downloads'    => $packageData['downloads']['total'],
             'abandoned'    => (int) isset($packageData['abandoned']),
             'packagistUrl' => $userData['packagistUrl'],
-            'keywords'     => $userData['keywords'] !== [] ? $userData['keywords'] : '',
+            'keywords'     => isset($userData['keywords']) && $userData['keywords'] !== [] ? $userData['keywords'] : '',
             'website'      => $website,
             'image'        => $this->getPackageImage(
                 str_replace('https://github.com/', '', $packageData['repository'])

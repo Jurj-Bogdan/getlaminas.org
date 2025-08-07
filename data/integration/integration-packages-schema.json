@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "$id": "integration-packages-schema",
+  "title": "Integration packages schema",
+  "description": "Required ",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "packagistUrl": {
+        "description": "The Packagist URL of the integration.",
+        "type": "string",
+        "format": "uri"
+      },
+      "keywords": {
+        "description": "User defined keywords",
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "homepage": {
+        "description": "Homepage URL. Will overwrite any homepage set in composer.json.",
+        "anyOf": [
+          {
+            "type": ["string"],
+            "format": "uri"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      }
+    },
+    "required": ["packagistUrl"]
+  }
+}

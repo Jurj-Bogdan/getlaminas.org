@@ -13,4 +13,4 @@ jobs:
         - name: schema-validation-action
           uses: cardinalby/schema-validator-action@3.1.1
           with:
-            file: 'data/integration/*.json'
+            file: '/data/integration/*.json'

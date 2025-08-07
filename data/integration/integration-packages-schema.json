@@ -13,7 +13,7 @@
         "format": "uri"
       },
       "keywords": {
-        "description": "User defined keywords",
+        "description": "User defined keywords, used for filtering results.",
         "type": "array",
         "items": {
           "type": "string"
@@ -21,7 +21,7 @@
         "uniqueItems": true
       },
       "homepage": {
-        "description": "Homepage URL. Will overwrite any homepage set in composer.json.",
+        "description": "Custom homepage URL. Will overwrite any homepage set in composer.json.",
         "anyOf": [
           {
             "type": ["string"],

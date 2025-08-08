@@ -336,7 +336,7 @@ class CreateIntegrationDatabase extends Command
             return null;
         }
 
-        if (! $userData['homepage'] || ! filter_var($userData['homepage'], FILTER_VALIDATE_URL)) {
+        if (! isset($userData['homepage']) || ! filter_var($userData['homepage'], FILTER_VALIDATE_URL)) {
             $lastVersion = array_key_first($packageData['versions']);
             if ($lastVersion === null) {
                 $website = '';

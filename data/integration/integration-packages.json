@@ -4,25 +4,25 @@
     "keywords": ["ip", "address", "middleware"]
   },
   {
-    "packagistUrl": "https://packagist.org/packages/netglue/laminas-messenger",
-    "keywords": ["laminas", "messenger"],
+    "packagistUrl": "https://www.packagist.org/packages/netglue/laminas-messenger",
+    "keywords": null,
     "homepage": null
   },
   {
     "packagistUrl": "https://packagist.org/packages/dotkernel/dot-errorhandler",
-    "keywords": ["error-handling"],
+    "keywords": null,
     "homepage": "https://dotkernel.com"
   },
   {
     "packagistUrl": "https://packagist.org/packages/roave/psr-container-doctrine",
-    "keywords": ["container", "doctrine"],
+    "keywords": []
   },
   {
-    "packagistUrl": "https://packagist.org/packages/asgrim/mini-mezzio",
-    "keywords": ["mezzio"],
+    "packagistUrl": "https://www.packagist.org/packages/asgrim/mini-mezzio",
+    "keywords": ["mezzio"]
   },
   {
-    "packagistUrl": "https://packagist.org/packages/dotkernel/api",
+    "packagistUrl": "https://www.packagist.org/packages/dotkernel/api"
   },
   {
     "packagistUrl": "https://packagist.org/packages/dotkernel/frontend",

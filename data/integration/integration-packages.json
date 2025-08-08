@@ -1,41 +1,36 @@
 [
   {
-    "packagistUrl": "packages/akrabat/ip-address-middleware",
-    "homepage": null
+    "packagistUrl": "https://packagist.org/packages/akrabat/ip-address-middleware",
+    "keywords": ["ip", "address", "middleware"]
   },
   {
     "packagistUrl": "https://packagist.org/packages/netglue/laminas-messenger",
-    "keywords": [1234],
+    "keywords": ["laminas", "messenger"],
     "homepage": null
   },
   {
     "packagistUrl": "https://packagist.org/packages/dotkernel/dot-errorhandler",
-    "keywords": 567,
+    "keywords": ["error-handling"],
     "homepage": "https://dotkernel.com"
   },
   {
     "packagistUrl": "https://packagist.org/packages/roave/psr-container-doctrine",
     "keywords": ["container", "doctrine"],
-    "homepage": null
   },
   {
     "packagistUrl": "https://packagist.org/packages/asgrim/mini-mezzio",
     "keywords": ["mezzio"],
-    "homepage": null
   },
   {
     "packagistUrl": "https://packagist.org/packages/dotkernel/api",
-    "homepage": null
   },
   {
     "packagistUrl": "https://packagist.org/packages/dotkernel/frontend",
-    "keywords": ["frontend-application"],
     "homepage": "https://www.dotkernel.com"
   },
   {
     "packagistUrl": "https://packagist.org/packages/ramsey/uuid",
-    "keywords": ["uuid", "guid"],
-    "homepage": null
+    "keywords": ["uuid", "guid"]
   },
   {
     "packagistUrl": "https://packagist.org/packages/filp/whoops",
